@@ -13,7 +13,7 @@ public class InfoController {
     @GetMapping("/mis-datos")
     public Map<String, Object> obtenerDatosSimulados() {
         Map<String, Object> datos = new HashMap<>();
-        datos.put("desarrollador", "Sam");
+        datos.put("nombre", "Sam");
         datos.put("actividad", "Act1. Introducción a Spring Boot");
         datos.put("materias", new String[]{"Programación Web"});
         return datos;
